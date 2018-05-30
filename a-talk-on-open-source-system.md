@@ -12,7 +12,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 
 
-![CNCF Landscape](/Users/york/Desktop/a-talk-on-open-source-system/pic/CloudNativeLandscape_latest.png)
+![CNCF Landscape](pic/CloudNativeLandscape_latest.png)
 
 
 
@@ -82,7 +82,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 #### 主从架构
 
-![master-slave](/Users/york/Desktop/a-talk-on-open-source-system/pic/master-slave.png)
+![master-slave](pic/master-slave.png)
 
 主从架构在当今主要的是用在关系型数据库上
 
@@ -104,7 +104,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 #### 多活架构
 
-![cluster](/Users/york/Desktop/a-talk-on-open-source-system/pic/cluster.png)
+![cluster](pic/cluster.png)
 
 多活架构基本现在主要是组件级别的在使用，搭建组建集群
 
@@ -127,7 +127,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 #### Multitier Architecture（多层架构）
 
-![multi-layer](/Users/york/Desktop/a-talk-on-open-source-system/pic/multi-layer.png)
+![multi-layer](pic/multi-layer.png)
 
 如果说多活架构是水平扩展，那么多层架构就是垂直拆分，根据大的功能类别把服务拆成三层
 
@@ -152,7 +152,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 > **面向服务的体系结构**（英语：service-oriented architecture）并不特指一种技术，而是一种分布式运算的软件设计方法。软件的部分组件(调用者)，可以通过网络上的通用协议调用另一个应用软件组件运行、运作，让调用者获得服务。SOA原则上采用[开放标准](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E6%A0%87%E5%87%86)、与软件资源进行[交互](https://zh.wikipedia.org/w/index.php?title=%E4%BA%A4%E4%BA%92&action=edit&redlink=1)并采用表示的标准方式。因此应能跨越厂商、产品与技术。一项服务应视为一个独立的功能单元，可以远程访问并独立运行与更新，例如在线查询信用卡账单。 
 
-![SOA](/Users/york/Desktop/a-talk-on-open-source-system/pic/SOA.png)
+![SOA](pic/SOA.png)
 
 
 
@@ -176,7 +176,7 @@ SOA很重要的几个特点就是组件化，业务解耦，标准化通讯协�
 
 >  **微服务** (Microservices) 是一种[软体架构风格](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6%E6%9E%B6%E6%9E%84)，它是以专注于单一责任与功能的小型功能区块 (Small Building Blocks) 为基础，利用模组化的方式组合出复杂的大型应用程式，各功能区块使用与语言无关 (Language-Independent/Language agnostic) 的 API 集相互通讯。 
 
-![image](/Users/york/Desktop/a-talk-on-open-source-system/pic/microservices.png)
+![image](pic/microservices.png)
 
 微服务是没有web服务规范和ESB（企业服务总线）的SOA，少了很多规范，更加灵活。严格意义上来说微服务是SOA的一个子集。
 
@@ -196,7 +196,7 @@ SOA很重要的几个特点就是组件化，业务解耦，标准化通讯协�
 
 业界做的比较好的是Netflix，来一张Netflix的经典架构图
 
-![netflix-micro-service](/Users/york/Desktop/a-talk-on-open-source-system/pic/netflix-micro-service.jpeg)
+![netflix-micro-service](pic/netflix-micro-service.jpeg)
 
 
 
@@ -304,7 +304,7 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 ## IaaS，PaaS，SaaS & 现代开发模式
 
-![iaas-paas-saas-comparison](/Users/york/Desktop/a-talk-on-open-source-system/pic/iaas-paas-saas-comparison.jpg)
+![iaas-paas-saas-comparison](pic/iaas-paas-saas-comparison.jpg)
 
 
 
@@ -344,7 +344,7 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 #### CNCF（云原生计算基金会）
 
-![CNCF_TrailMap_latest](/Users/york/Desktop/a-talk-on-open-source-system/pic/CNCF_TrailMap_latest.png)
+![CNCF_TrailMap_latest](pic/CNCF_TrailMap_latest.png)
 
 slocan
 

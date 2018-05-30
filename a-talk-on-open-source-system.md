@@ -2,7 +2,7 @@
 
 
 
-![open-source-tech-mess](/Users/york/Desktop/a-talk-on-open-source-system/pic/open-source-tech-mess.png)
+![open-source-tech-mess](pic/open-source-tech-mess.png)
 
 
 

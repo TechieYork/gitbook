@@ -16,7 +16,7 @@ PS：请大家脑补开源方案眼花缭乱的场景，以上图标也是花了
 
 
 
-**当前开源项目情况，以上只是开源界的一角，由CNCF整理的landscape**
+**当前开源项目情况，以上只是开源界的一角，由CNCF整理的[landscape](https://landscape.cncf.io/format=landscape)**
 
 `由于不同的应用架构考量点是非常不同的，所以本文默认以互联网业务服务架构当作背景谈论问题。`
 
@@ -220,7 +220,7 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 ​	一般来说开源方案倾向于使用HTTP或某些RPC等方案来做为服务间的通讯方式。
 
-​	e.g.:Restful, GraphQL, gRPC, thrift
+​	e.g.:RESTful, GraphQL, gRPC, thrift
 
 #### 服务注册发现 & 负载均衡
 
@@ -230,7 +230,7 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 ​	而负载均衡则有很多方式，硬件的如F5，软件的也有很多。
 
-​	e.g.:	LVS，HAProxy，Nginx，各种Service Mesh等
+​	e.g.:	LVS，HAProxy，Nginx，Envoy，各种Service Mesh等
 
 #### 服务监控
 
@@ -242,7 +242,7 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 ​		开源社区的标配是ELK堆栈，即ElasticSearch + LogStash + Kibana。
 
-​		e.g.:ELK, fluentd, 还有其他都是各种不同功能替换组合的方案
+​		e.g.:ELK, EFK, Graylog, 还有其他都是各种不同功能替换组合的方案
 
 ​	**监控 & 告警**
 
@@ -352,13 +352,6 @@ SOA的应用更适用于企业，重业务流程的场景。
 ​	随着CNCF的介入作为中立机构，推进开源生态的发展。这个趋势更是不可阻挡。
 
 ​	而且越来越多的SaaS供应商对业界流行的堆栈都做了极多的兼容，使得切换的代价变得小之又小。
-
-## 展望
-
-Service Mesh？
-
-Serverless？
-
 
 
 ## 参考

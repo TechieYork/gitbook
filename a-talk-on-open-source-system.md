@@ -330,6 +330,12 @@ SOA的应用更适用于企业，重业务流程的场景。
 
 
 
+## 逐层拼接云原生堆栈
+
+![cloud_native_building_stack](pic/Packet_Cloud_Native_Building_Stack.jpg)
+
+
+
 ## 开源生态
 
 #### CNCF（云原生计算基金会）
@@ -369,3 +375,5 @@ SOA的应用更适用于企业，重业务流程的场景。
 [微服务、SOA 和 API：是敌是友？](https://www.ibm.com/developerworks/cn/websphere/library/techarticles/1601_clark-trs/1601_clark.html)
 
 [SaaS vs PaaS vs IaaS: What’s The Difference and How To Choose](http://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
+
+[逐层拼接云原生栈](https://mp.weixin.qq.com/s/HbpCXbIVt7q0-U9iYQGtsw)
